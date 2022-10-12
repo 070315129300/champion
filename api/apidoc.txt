@@ -1,0 +1,84 @@
+API DOCUMENTATION
+==================
+baseurl = http://localhost/champion/api
+
+
+
+Endpoints   |   Method
+=====================
+
+- v1/addmember.php    |   POST
+- v1/listmembers.php    |   GET
+- v1/updatemember.php   |   PUT
+- v1/deletemember.php   |   DELETE
+
+
+v1/addmember.php endpoint Request PayLoad
+=========================================
+{
+    "firstname": "Elon",
+    "lastname": "Musk",
+    "dob": "2000-04-23",
+    "phone": "2348033208774",
+    "email": "elon@musk.com",
+    "password": "123456"
+}
+
+URI
+===
+http://localhost/champion/api/v1/addmember.php
+
+
+v1/addmember.php endpoint Response PayLoad
+==========================================
+
+{
+    "status": "failed | success",
+    "message": "A user account was successfully created",
+    "data": []
+}
+
+v1/updatemember.php endpoint Request PayLoad
+============================================
+{
+    "firstname": "Bill",
+    "lastname": "Gates",
+    "dob": "2005-01-25",
+    "phone": "2348044408774",
+    "email": "billgate@musk.com",
+    "password": "223344",
+    "userid": 2
+}
+
+v1/addmember.php endpoint Request PayLoad
+=========================================
+{
+    "firstname": "Shilling",
+    "lastname": "Great",
+    "dob": "1992-01-25",
+    "phone": "2348064274011",
+    "email": "otbestir4good@gmail.com",
+    "password": "kenny1"
+}
+
+
+v1/deletemember.php endpoint Request PayLoad
+============================================
+{
+    "firstname": "Shilling",
+    "lastname": "Great",
+    "dob": "1992-01-25",
+    "phone": "2348064274011",
+    "email": "otbestir4good@gmail.com",
+    "password": "kenny1",
+    "userid": 5
+}
+
+https://naijapoetry.com
+
+https://paystack.com
+
+http://api.naijapoetry.com/api/poetry/GetRecentPoets
+GET
+
+
